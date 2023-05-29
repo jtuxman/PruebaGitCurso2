@@ -1,0 +1,23 @@
+
+configura variables de uso 
+git config --global user.name jtuxman
+git config --global user.email jmanuel.hurt@gmail.com
+muestr configuracion
+git config  --list
+
+inicializa un repositorio
+git init
+
+agrega un archivo al proyecto
+meter archivos al estado STAGE
+git add comandosgit.txt
+
+muestra el estado de los archios del proyecto
+git status
+
+ya que se esta 
+
+git log
+
+git remote add origin https://github.com/jtuxman/gitcourse.git 
+git remote -v
