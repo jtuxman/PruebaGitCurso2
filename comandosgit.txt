@@ -1,3 +1,14 @@
+Estados de git
+working Directory (modified)  el directorio de trabajo
+
+git add
+
+stagin area (staged)     cuando estan preparados los archivos
+
+git commit
+
+local repository (commited)  los cambios estan confirmados
+
 
 configura variables de uso 
 git config --global user.name jtuxman
@@ -6,19 +17,24 @@ muestr configuracion
 git config  --list
 
 inicializa un repositorio
-git init
+git init 
 
 agrega un archivo al proyecto
 meter archivos al estado STAGE
 git add comandosgit.txt
 
-muestra el estado de los archios del proyecto
+muestra el estado de los archivos del proyecto
 git status
 
 agregar los archivos al estado
 git commit -m " agregando el archivo de resumen de comandos"
 
+muestra el estado de los commits
 git log
 
+
+configura el reposito un repositorio remoti
 git remote add origin https://github.com/jtuxman/gitcourse.git 
+
+muestra cual es el repositorio remoto
 git remote -v
