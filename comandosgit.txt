@@ -38,3 +38,6 @@ git remote add origin https://github.com/jtuxman/gitcourse.git
 
 muestra cual es el repositorio remoto
 git remote -v
+
+
+enviar el repositorio local al repositorio remoto
