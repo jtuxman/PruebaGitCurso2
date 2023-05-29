@@ -32,6 +32,8 @@ git commit -m " agregando el archivo de resumen de comandos"
 muestra el estado de los commits
 git log
 
+no viene en el curso pero creo que crea la rama principal
+git branch -M main
 
 configura el reposito un repositorio remoti
 git remote add origin https://github.com/jtuxman/gitcourse.git 
@@ -40,4 +42,5 @@ muestra cual es el repositorio remoto
 git remote -v
 
 
-enviar el repositorio local al repositorio remoto
+enviar el repositorio local al repositorio 
+git push origin main
