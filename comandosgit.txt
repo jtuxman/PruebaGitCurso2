@@ -15,7 +15,8 @@ git add comandosgit.txt
 muestra el estado de los archios del proyecto
 git status
 
-ya que se esta 
+agregar los archivos al estado
+git commit -m " agregando el archivo de resumen de comandos"
 
 git log
 
