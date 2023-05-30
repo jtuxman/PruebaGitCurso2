@@ -44,3 +44,6 @@ git remote -v
 
 enviar el repositorio local al repositorio 
 git push origin main
+
+para descargar un repositorio modificado
+git pull origin main
