@@ -47,3 +47,6 @@ git push origin main
 
 para descargar un repositorio modificado
 git pull origin main
+
+borrar archivos no trackeados del aworking directgory
+git clean -f
