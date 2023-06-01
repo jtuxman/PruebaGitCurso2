@@ -48,5 +48,13 @@ git push origin main
 para descargar un repositorio modificado
 git pull origin main
 
-borrar archivos no trackeados del aworking directgory
+borrar archivos no trackeados del a working directgory
 git clean -f
+
+
+
+restaurar un archivo del staging area (git add) al working Directory
+git restore --staged archivo.txt
+
+tambien se puede usar
+git restore archivo.txt
