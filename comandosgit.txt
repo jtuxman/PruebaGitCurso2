@@ -58,3 +58,14 @@ git restore --staged archivo.txt
 
 tambien se puede usar
 git restore archivo.txt
+
+restaurar hasta cierto commit eliminando los commits anteriores
+git revert HASH
+git revert 8f05ccc8404601e98e53a7737e21b411a5073345
+
+el HASH se puede sacar con git log
+después de eso agregar los cambios de los archivos modificados y salvados
+con git add archivos
+git commit -m "restaurando cambios"
+esto permite tener un registro de los cambios que se restauraron
+y hasta que punto se restauraron.
