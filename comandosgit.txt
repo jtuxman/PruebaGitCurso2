@@ -69,3 +69,13 @@ con git add archivos
 git commit -m "restaurando cambios"
 esto permite tener un registro de los cambios que se restauraron
 y hasta que punto se restauraron.
+
+
+para renombrar un archivo que ya esta en el repositorio o stage area
+git mv archiv10.txt archivo11.txt
+git commit -m "renombrando archivo con mv"
+
+es un atajo de hacer un
+git add nuevonombre
+git remove nuevonombre
+git commit -m "renombrando manualmente"
