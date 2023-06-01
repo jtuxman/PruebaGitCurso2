@@ -98,3 +98,11 @@ git branch -m nombre_viejo nombre_nuevo
 git branch -m primera_rama rama_renombrada
 
 
+quita un archivo del working directory, el archiv puede estar en el staged
+git checkout archivo3.txt
+
+Para moverte en el tiempo y colocarte en cierto punto de los commit
+mueve el apuntador HEAD a un commit
+git checkout HASH
+git checkout e52c55484adc56889165e9e31e5b20d9af6f954f
+
