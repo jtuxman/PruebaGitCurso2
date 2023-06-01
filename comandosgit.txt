@@ -79,3 +79,22 @@ es un atajo de hacer un
 git add nuevonombre
 git remove nuevonombre
 git commit -m "renombrando manualmente"
+
+muestra las ramas del proyecto, existe una rama que es la principal
+normalmente es la de producción, las ramas son usadas para modificar el
+código, se modifica y se trabaja sobre la rama creada, una vez terminado
+el código se solicita un pull request para unir los cambios a la rama 
+de produccion, los revisores hacen comentarios y solicitudes de modificación
+del código, si existe ambiente de pruebas se pasa el código a ambiente
+ de pruebas (creo que es otra rama) y una vez aceptado se mezcla con el de
+ producción. Con un asterisco te muestra en que rama estas ubicado
+git branch primera_rama
+
+eliminar una rama
+git branch -d primera_rama
+
+renombrar una rama
+git branch -m nombre_viejo nombre_nuevo
+git branch -m primera_rama rama_renombrada
+
+
