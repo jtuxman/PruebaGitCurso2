@@ -115,3 +115,9 @@ es el equivalente de
 git branch rama_nueva_3
 git checkout rama_nueva_3
 
+
+unir dos ramas
+git merge main agregando_lineas
+une los cambios de la rama agregando_lineas a main, los cambios quedaran en main
+en el ejemplo main no tenia commits y agregando_lineas si tenía, por lo que solo hizo 
+fast_forward que es el merge más sencillo, mueve la rama agregando_lineas a la rama main
