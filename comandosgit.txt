@@ -106,3 +106,6 @@ mueve el apuntador HEAD a un commit
 git checkout HASH
 git checkout e52c55484adc56889165e9e31e5b20d9af6f954f
 
+mueve el HEAD al último commit de la rama indicada
+git checkout rama
+
