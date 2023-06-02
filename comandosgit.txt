@@ -109,3 +109,9 @@ git checkout e52c55484adc56889165e9e31e5b20d9af6f954f
 mueve el HEAD al último commit de la rama indicada
 git checkout rama
 
+para crear una rama y moverte el HEAD al mismo tiempo
+git checkout -b rama_nueva_3
+es el equivalente de 
+git branch rama_nueva_3
+git checkout rama_nueva_3
+
