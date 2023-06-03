@@ -121,3 +121,17 @@ git merge main agregando_lineas
 une los cambios de la rama agregando_lineas a main, los cambios quedaran en main
 en el ejemplo main no tenia commits y agregando_lineas si tenía, por lo que solo hizo 
 fast_forward que es el merge más sencillo, mueve la rama agregando_lineas a la rama main
+
+guarda cambios en la pila , esto para evitar hacer commits y necesitas cambiarte
+de rama
+git stash
+
+
+recuperar estado del stash 
+git pop 
+
+mostrar lo que se encuentra en el stash
+git stash list
+
+limpiar la pila
+git stash list 
