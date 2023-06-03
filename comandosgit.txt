@@ -134,4 +134,4 @@ mostrar lo que se encuentra en el stash
 git stash list
 
 limpiar la pila
-git stash list 
+git stash clear
