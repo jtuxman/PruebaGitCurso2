@@ -135,3 +135,9 @@ git stash list
 
 limpiar la pila
 git stash clear
+
+crear un tag simple
+git tag nombre_tag
+
+crear un tag anotado a un commit
+git tag -a version0.0 -m "comienzo del programa" dc9c9932071cf636e07983959b4758bffe2eedaa
